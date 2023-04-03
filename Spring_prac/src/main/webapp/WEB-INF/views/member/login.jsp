@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Signin Template · Bootstrap v5.1</title>
+    <title>Login page</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
 
     
@@ -40,6 +40,7 @@
     
 <main class="form-signin">
   <form>
+	<!--B 로고 -->
     <img class="mb-4" src="resources/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -54,8 +55,10 @@
 
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"> Remember me
-        <a href="#">sign up</a>
+<!--         <input type="checkbox" value="remember-me"> Remember me -->
+		<a href="#">Forgot ID · Password</a> &nbsp;
+        <a href="#">Sign up</a>	
+		<!-- 회원가입 페이지(signup.jsp) 만들기 -->
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
